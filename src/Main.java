@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7};
+        String message = "Hello, java!";
 
-        for (int i =0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
-        }
+        // 문자열 길이 확인
+        System.out.println("문자열 길이: " + message.length());
+
+        // 대문자로 변환
+        System.out.println("대문자로 변환: " + message.toUpperCase());
     }
 }
